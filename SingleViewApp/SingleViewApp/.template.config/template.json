@@ -1,0 +1,38 @@
+﻿{
+  "author": "Microsoft", // [Required] The author of the template.
+  "classifications": [ "iOS" ], // [Required] Classification group(s) for the template.
+  "name": "Single View App", // [Optional] Unique name for this template.
+  "groupIdentity": "Xamarin.iOS.SingleViewApp", // [Optional] Group this template belongs to.
+  "identity": "Xamarin.iOS.SingleViewApp.CSharp", // [Optional] Unique identifier for this template.
+  "shortName": "xamios", // [Required] Used to identify templates via the CLI.
+  "tags": { // [Optional]å
+    "language": "C#", // Specify this template is C#.
+    "type": "project" // Specify this is a project template (as opposed to an item template).
+  },
+  "sourceName": "SingleViewApp", // [Optional] The name in the template to replace with the user-defined name.
+  "preferNameDirectory" : "true", // [Optional]
+  "symbols" : { // [Optional] Defines variables and their values. When a defined symbol name is encountered anywhere in the template, it is replaced by the value defined in this configuration. This is a collection of key-value paris, where the keys are symbol names, and the value contains key-value-pair configuration information on assigning the symbol encountered a value.
+      "appIdentifier" : {
+          "type" : "parameter", // [Required] Valid values of parameter, computed, generated.
+          "description": "Overrides the Info.plist's CFBundleIdentifier", // [Optional] Human-readable description of the symbol.
+          "replaces": "com.xamarin.SingleViewApp", // [Optional]
+          "datatype": "string", // [Optional] Indicates data type for parameter.
+          "defaultValue": "com.companyname" // [Optional] Indicates default value if none is provided.
+      },
+      "enableAwesomeStuff" : {
+        "type": "parameter",
+        "dataType":"bool",
+        "defaultValue": "false"
+      }
+  },
+  "sources": [
+    {
+        "modifiers": [
+            {
+                "condition": "(!enableAwesomeStuff)",
+                "exclude": [ "ViewController.cs", "ViewController.designer.cs" ]
+            }
+        ]
+    }
+]
+ }

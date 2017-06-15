@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleViewApp", "SingleViewApp\SingleViewApp.csproj", "{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}.Release|iPhone.ActiveCfg = Release|iPhone
+		{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}.Release|iPhone.Build.0 = Release|iPhone
+		{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{AF2E4691-9E47-4754-A3AF-F041BEB6EAE4}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
