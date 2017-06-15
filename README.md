@@ -73,10 +73,7 @@ public void MyAwesomeMethod()
 #endif
 ```
 
-
-
-Here you used "dataType":"bool" to indicate that this parameter should support true/false values. Now you will use the value of this parameter to determine if content will be added to the project. First let’s see how you can exclude Contact.cshtml when EnableContactPage is set to false. To exclude a file from being processed during creation, you need to add a new element into the template.json file. The required content to add is.
-
 ## References
 
 * [template.json](https://github.com/dotnet/templating/wiki/%22Runnable-Project%22-Templates)
+* [samples](https://github.com/dotnet/dotnet-template-samples)
